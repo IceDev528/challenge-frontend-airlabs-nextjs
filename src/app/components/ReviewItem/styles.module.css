@@ -1,0 +1,15 @@
+.review_box {
+  border: 2px solid var(--black-color);
+  background: var(--white-color);
+  padding: 30px;
+  height: fit-content;
+}
+
+.review_text {
+  display: block;
+  margin: 30px 0 40px 0;
+  color: var(--black-color);
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 26px;
+}

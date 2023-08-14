@@ -1,0 +1,12 @@
+@import './styles/css/variables.css';
+
+body {
+  position: relative;
+  background-color: var(--bg-color);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}

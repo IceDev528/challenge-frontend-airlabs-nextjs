@@ -1,0 +1,44 @@
+.container {
+  max-width: 1200px;
+  padding: 15px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.review_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  z-index: 1;
+}
+
+.accent_left {
+    position: absolute;
+    left: -220px;
+    bottom: 0;
+}
+
+.accent_right {
+    position: absolute;
+    right: -220px;
+    top: 0;
+    transform: rotate(88.346deg);
+}
+
+@media screen and (max-width: 1024px) {
+  .review_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 112px 32px 169px 32px;
+  }
+
+  .review_container {
+    grid-template-columns: 1fr;
+  }
+}

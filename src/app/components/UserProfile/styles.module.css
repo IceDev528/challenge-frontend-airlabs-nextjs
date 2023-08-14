@@ -1,0 +1,27 @@
+.user_container {
+    display: flex;
+    align-items: center;
+}
+
+.user_avatar {
+    margin-right: 15px;
+}
+
+.user_information {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.user_name {
+    color: var(--black-color);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.user_position {
+    color: var(--black-color);
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.7;
+}
